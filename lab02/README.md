@@ -36,7 +36,7 @@ Utilize o programa `gera_2vet_rand.c` para gerar arquivos binários contendo os 
 3. **Executar o Programa Concorrente**:
 
    ```bash
-  gcc -o p_interno_conc p_interno_conc.c -pthread
+    gcc -o p_interno_conc p_interno_conc.c -pthread
    ./p_interno_conc <arquivo_entrada> <numero_threads>
    ```
 
