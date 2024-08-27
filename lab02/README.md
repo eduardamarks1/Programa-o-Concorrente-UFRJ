@@ -24,16 +24,8 @@ Utilize o programa `gera_2vet_rand.c` para gerar arquivos binários contendo os 
 
    Exemplo: `./gera_2vet_rand 100 vetores.bin`
 
-2. **Executar o Programa Sequencial**:
 
-   ```bash
-   gcc sequencial.c -o sequencial
-   ./sequencial <arquivo_entrada>
-   ```
-
-   Exemplo: `./sequencial vetores.bin`
-
-3. **Executar o Programa Concorrente**:
+**Executar o Programa Concorrente**:
 
    ```bash
     gcc -o p_interno_conc p_interno_conc.c -pthread
