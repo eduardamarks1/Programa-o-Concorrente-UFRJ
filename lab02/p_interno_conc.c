@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
   //aloca espaco de memoria e carrega os vetores de entrada lidos a partir do arquivo binário
 
   vet1 = malloc (sizeof(float) * n);
-  vet1 = malloc (sizeof(float) * n);
+  vet2 = malloc (sizeof(float) * n);
 
   if(vet1==NULL) { printf("--ERRO: malloc()\n"); exit(-1); }
   ret = fread(vet1, sizeof(float), n, arq);
@@ -123,17 +123,16 @@ int main(int argc, char *argv[]) {
   }
 
   // cálculo sequencial do produto interno sequencial
- // pi_seq = 0;
- // calcula_produto_interno_conc(vet1, vet2, n-1,0)
- // for(int t=n-1; t>=0; t--) {
- //    pi_seq += vet[t];
- // }
-  
+pi_seq = 0;
+ for(long int i=n; i>=0; i--) {
+      pi_seq += vet1[i] * vet2[i];
+ }
+
   // produto iinterno sequencial bloco (== dividindo em 2 threads)
   pi1=0;
-  calcula_produto_interno_conc(vet1, vet2, 0, n/2);
+  pi1 = calcula_produto_interno_conc(vet1, vet2, 0, n/2);
   pi2=0;
-  calcula_produto_interno_conc(vet1, vet2, n/2, n);
+  pi2 = calcula_produto_interno_conc(vet1, vet2, n/2, n);
   pi_seq_blocos = pi1 + pi2;
  
   //espera todas as threads terminarem e calcula a soma total das threads
@@ -149,7 +148,7 @@ int main(int argc, char *argv[]) {
 
   //imprime os resultados
   printf("\n");
- // printf("pi_seq (invertida)         = %.26f\n\n", pi_seq);
+  printf("pi_seq (invertida)         = %.26f\n\n", pi_seq);
   printf("pi_seq_blocos (2 blocos)   = %.26f\n\n", pi_seq_blocos);
   printf("pi_concorrente             = %.26f\n", pi_par_global);
  
