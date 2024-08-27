@@ -11,53 +11,71 @@ valor calculado com o valor registrado no arquivo de entrada. */
 #include <pthread.h> 
 
 
-//tamanho do vetor
+// dimensao do vetor
 long int n;
-//vetor de elementos
-float *vet;
+
+//vetores 
+float *vet1;
+float *vet2;
+
 //numero de threads
 int nthreads;
 
-//funcao executada pelas threads
+// funcao pra calcular o produto interno de dois vetores de forma concorrente
+double calcula_produto_interno_conc(float *vetor1, float *vetor2, int inicio, int fim){
+    double produto_interno = 0.0;
+    for(long int i=inicio; i<fim; i++) {
+      produto_interno += vetor1[i] * vetor2[i];
+    }
+    return produto_interno;
+}
+
+// main das threads
+
 //estrategia de divisao de tarefas: blocos de n/nthreads elementos
-void *SomaVetor (void *tid) {
+
+void *ProdutoInterno (void *tid) {
+
   long int id = (long int) tid; //identificador da thread
-  int ini, fim, bloco; //auxiliares para divisao do vetor em blocos
-  float soma_local, *ret; //somatorio local
+  int ini, fim, bloco; // auxiliares para divisao do vetor em blocos
+  float *ret; // produto interno local
+  double produto_interno_local = 0.0;
   
   bloco = n/nthreads; //tamanho do bloco de dados de cada thread
+
   ini = id*bloco; //posicao inicial do vetor
   fim = ini + bloco; //posicao final do vetor
   if (id==(nthreads-1)) fim = n; //a ultima thread trata os elementos restantes no caso de divisao nao exata
 
-  //soma os valores 
-  for(int i=ini; i<fim; i++) {
-     soma_local += vet[i];
-  }
+  //calcula o produto interno
+  produto_interno_local = calcula_produto_interno_conc(vet1,vet2,ini,fim);
 
-  //retorna o resultado da soma
+  //retorna o resultado do produto interno 
   ret = malloc(sizeof(float));
-  if (ret!=NULL) *ret = soma_local;
+  if (ret!=NULL) *ret = produto_interno_local;
   else printf("--ERRO: malloc() thread\n");
   pthread_exit((void*) ret);
+
 }
 
 //funcao principal do programa
+
 int main(int argc, char *argv[]) {
-  FILE *arq; //arquivo de entrada
+  FILE *arq; 
   size_t ret; //retorno da funcao de leitura no arquivo de entrada
 	      
-  double soma_ori; //soma registrada no arquivo
-  float soma_seq, soma_seq_blocos, soma_par_global; //resultados das somas
-  float soma1, soma2; //auxiliares para a soma sequencial alternada
-  float *soma_retorno_threads; //auxiliar para retorno das threads
+  double produto_interno_ori; // produto interno registrado no arquivo original 
+  float pi_seq, pi_seq_blocos, pi_par_global; //resultados dos produtos internos
+  float pi1, pi2; //auxiliares para o cálculo do produto interno sequencial alternado
+  float *pi_retorno_threads; //auxiliar para retorno das threads
+
 
   pthread_t *tid_sistema; //vetor de identificadores das threads no sistema
 
   //valida e recebe os valores de entrada
   if(argc < 3) { printf("Use: %s <arquivo de entrada> <numero de threads> \n", argv[0]); exit(-1); }
 
-  //abre o arquivo de entrada com os valores para serem somados
+
   arq = fopen(argv[1], "rb");
   if(arq==NULL) { printf("--ERRO: fopen()\n"); exit(-1); }
 
@@ -68,14 +86,25 @@ int main(int argc, char *argv[]) {
      return 3;
   }
 
-  //aloca espaco de memoria e carrega o vetor de entrada
-  vet = malloc (sizeof(float) * n);
-  if(vet==NULL) { printf("--ERRO: malloc()\n"); exit(-1); }
-  ret = fread(vet, sizeof(float), n, arq);
+  //aloca espaco de memoria e carrega os vetores de entrada lidos a partir do arquivo binário
+
+  vet1 = malloc (sizeof(float) * n);
+  vet1 = malloc (sizeof(float) * n);
+
+  if(vet1==NULL) { printf("--ERRO: malloc()\n"); exit(-1); }
+  ret = fread(vet1, sizeof(float), n, arq);
   if(ret < n) {
      fprintf(stderr, "Erro de leitura dos elementos do vetor\n");
      return 4;
   }
+
+  if(vet2==NULL) { printf("--ERRO: malloc()\n"); exit(-1); }
+  ret = fread(vet2, sizeof(float), n, arq);
+  if(ret < n) {
+     fprintf(stderr, "Erro de leitura dos elementos do vetor\n");
+     return 4;
+  }
+
 
   //le o numero de threads da entrada do usuario 
   nthreads = atoi(argv[2]);
@@ -88,52 +117,51 @@ int main(int argc, char *argv[]) {
 
   //cria as threads
   for(long int i=0; i<nthreads; i++) {
-    if (pthread_create(&tid_sistema[i], NULL, SomaVetor, (void*) i)) {
+    if (pthread_create(&tid_sistema[i], NULL, ProdutoInterno, (void*) i)) {
        printf("--ERRO: pthread_create()\n"); exit(-1);
     }
   }
 
-  //soma sequencial
-  soma_seq = 0;
-  for(int t=n-1; t>=0; t--) {
-     soma_seq += vet[t];
-  }
-  //soma sequencial bloco (== soma com 2 threads)
-  soma1=0;
-  for(int t=0; t<n/2; t++) {
-     soma1 += vet[t];
-  }
-  soma2=0;
-  for(int t=n/2; t<n; t++) {
-     soma2 += vet[t];
-  }
-  soma_seq_blocos = soma1 + soma2;
+  // cálculo sequencial do produto interno sequencial
+ // pi_seq = 0;
+ // calcula_produto_interno_conc(vet1, vet2, n-1,0)
+ // for(int t=n-1; t>=0; t--) {
+ //    pi_seq += vet[t];
+ // }
+  
+  // produto iinterno sequencial bloco (== dividindo em 2 threads)
+  pi1=0;
+  calcula_produto_interno_conc(vet1, vet2, 0, n/2);
+  pi2=0;
+  calcula_produto_interno_conc(vet1, vet2, n/2, n);
+  pi_seq_blocos = pi1 + pi2;
  
   //espera todas as threads terminarem e calcula a soma total das threads
   //retorno = (float*) malloc(sizeof(float));
-  soma_par_global=0;
+  pi_par_global=0;
   for(int i=0; i<nthreads; i++) {
-     if (pthread_join(tid_sistema[i], (void *) &soma_retorno_threads)) {
+     if (pthread_join(tid_sistema[i], (void *) &pi_retorno_threads)) {
         printf("--ERRO: pthread_join()\n"); exit(-1);
      }
-     soma_par_global += *soma_retorno_threads;
-     free(soma_retorno_threads);
+     pi_par_global += *pi_retorno_threads;
+     free(pi_retorno_threads);
   }
 
   //imprime os resultados
   printf("\n");
-  printf("soma_seq (invertida)         = %.26f\n\n", soma_seq);
-  printf("soma_seq_blocos (2 blocos)   = %.26f\n\n", soma_seq_blocos);
-  printf("soma_concorrente             = %.26f\n", soma_par_global);
+ // printf("pi_seq (invertida)         = %.26f\n\n", pi_seq);
+  printf("pi_seq_blocos (2 blocos)   = %.26f\n\n", pi_seq_blocos);
+  printf("pi_concorrente             = %.26f\n", pi_par_global);
  
   //le o somatorio registrado no arquivo
-  ret = fread(&soma_ori, sizeof(double), 1, arq); 
-  printf("\nSoma-ori                   = %.26lf\n", soma_ori);
+  ret = fread(&produto_interno_ori, sizeof(double), 1, arq); 
+  printf("\nProduto_Interno_Original                   = %.26lf\n", produto_interno_ori);
 
-  //desaloca os espacos de memoria
-  free(vet);
+
+  free(vet1);
+  free(vet2);
   free(tid_sistema);
-  //fecha o arquivo
   fclose(arq);
+
   return 0;
 }
