@@ -38,9 +38,8 @@ Utilize o programa `gera_2vet_rand.c` para gerar arquivos binários contendo os 
 
 - Após a execução dos programas, os resultados foram comparados utilizando o cálculo da variação relativa entre os métodos sequencial e concorrente a partir da fórmula:
 
-  \[
-  e = \left| \frac{v_s - v_c}{v_s} \right|
-  \]
+   e = |(vs - vc) / vs|
+
 
   Onde:
   - \(v_s\): valor do programa sequencial
