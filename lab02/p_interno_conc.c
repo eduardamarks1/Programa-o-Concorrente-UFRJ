@@ -9,7 +9,7 @@ valor calculado com o valor registrado no arquivo de entrada. */
 #include <stdio.h>
 #include <stdlib.h> 
 #include <pthread.h> 
-
+#include <math.h>
 
 // dimensao do vetor
 long int n;
@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
   size_t ret; //retorno da funcao de leitura no arquivo de entrada
 	      
   double produto_interno_ori; // produto interno registrado no arquivo original 
-  float pi_seq, pi_seq_blocos, pi_par_global; //resultados dos produtos internos
+  float pi_seq_inv, pi_seq_blocos, pi_par_global; //resultados dos produtos internos
   float pi1, pi2; //auxiliares para o cálculo do produto interno sequencial alternado
   float *pi_retorno_threads; //auxiliar para retorno das threads
 
@@ -123,9 +123,9 @@ int main(int argc, char *argv[]) {
   }
 
   // cálculo sequencial do produto interno sequencial
-pi_seq = 0;
+pi_seq_inv = 0;
  for(long int i=n; i>=0; i--) {
-      pi_seq += vet1[i] * vet2[i];
+      pi_seq_inv  += vet1[i] * vet2[i];
  }
 
   // produto iinterno sequencial bloco (== dividindo em 2 threads)
@@ -148,15 +148,26 @@ pi_seq = 0;
 
   //imprime os resultados
   printf("\n");
-  printf("pi_seq (invertida)         = %.26f\n\n", pi_seq);
+  printf("pi_seq (invertida)         = %.26f\n\n", pi_seq_inv);
   printf("pi_seq_blocos (2 blocos)   = %.26f\n\n", pi_seq_blocos);
   printf("pi_concorrente             = %.26f\n", pi_par_global);
- 
-  //le o somatorio registrado no arquivo
+
+  // Calculo da variacao relativa
+   
+  //le o produto interno registrado no arquivo
   ret = fread(&produto_interno_ori, sizeof(double), 1, arq); 
   printf("\nProduto_Interno_Original                   = %.26lf\n", produto_interno_ori);
 
+   float e_seq_inv = fabs((produto_interno_ori - pi_seq_inv) /  produto_interno_ori);
+   printf("\nVariacao Relativa p/ Partição Sequencial Invertida      = %.26f\n",  e_seq_inv);
 
+   float e_seq_blocos = fabs(( produto_interno_ori - pi_seq_blocos) /  produto_interno_ori);
+   printf("\nVariacao Relativa p/ Partição em blocos sequenciais       = %.26f\n", e_seq_blocos );
+
+   float e_concorrente = fabs(( produto_interno_ori -  pi_par_global) /  produto_interno_ori);
+   printf("\nVariacao Relativa p/ Partição com Threads       = %.26f\n", e_concorrente );
+
+   
   free(vet1);
   free(vet2);
   free(tid_sistema);
