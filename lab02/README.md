@@ -47,3 +47,20 @@ Utilize o programa `gera_2vet_rand.c` para gerar arquivos binários contendo os 
 
 ### Conclusão
 
+Ao testar o código gerando vetores de dimensão 10000  e 100 threads obteve-se como saída:
+
+pi_seq (invertida)         = 277368416.00000000000000000000000000
+
+pi_seq_blocos (2 blocos)   = 277368512.00000000000000000000000000
+
+pi_concorrente             = 277368480.00000000000000000000000000
+
+Produto_Interno_Original                   = 277368525.46223115921020507812500000
+
+Variacao Relativa p/ Partição Sequencial Invertida      = 0.00000039464546830458857585
+
+Variacao Relativa p/ Partição em blocos sequenciais       = 0.00000004853554003148019547
+
+Variacao Relativa p/ Partição com Threads       = 0.00000016390551138556475053
+
+Com esse teste e outro com dimensões mais baixas, foi possível perceber que à medida que o número de elementos e o número de threads aumentam, as diferenças na precisão entre os métodos se tornam mais perceptíveis. A execução concorrente, mesmo com vetores de maiores dimensões ainda apresenta um pequeno erro em relação ao original, mas ainda manteve uma precisão razoável. O desvio mais significativo ocorre na abordagem sequencial invertida, porque a ordem de soma dos produtos internos pode impactar a precisão, especialmente nos vetores grandes, devido à forma como os erros de ponto flutuante se acumulam na máquina. É importante mencionar que foi tilizado o tipo `float` para armazenar as variáveis que calculam as variações relativas porque, ao usar o tipo `double`, os valores resultantes eram todos zero, devido à precisão excessiva que "mascarava" as pequenas diferenças entre os resultados e o valor original do produto interno armazenado no arquivo pelo programa sequencial. Esse ajuste permitiu que as variações fossem de fato detectadas, o que relembrou os conceitos estudados na disciplina de Cálculo Numérico, especialmente em relação à propagação de erros nas operações e à precisão na representação por ponto flutuante. 
