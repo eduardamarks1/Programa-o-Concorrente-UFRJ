@@ -4,17 +4,11 @@
 #include<pthread.h>
 #include "timer.h"
 
-float *mat1; //matriz de entrada 1
-float *mat2; //matriz de entrada 1
+float *mat1; // matriz de entrada 1
+float *mat2; // matriz de entrada 1
 float *matRet; // matriz de saída
-int nthreads; // número de threads
 
-typedef struct{
-   int id; //identificador do elemento que a thread ira processar
-   int linha; 
-   int coluna;
-} tArgs;
-
+// struct para facilitar a manipulação das matrizes e as informações importantes sobre elas que utilizaremos 
 typedef struct{
     float *matriz;
     int linha;
@@ -22,158 +16,155 @@ typedef struct{
     int tam;
 } Matriz;
 
-// funcao que as threads executarao (main das threads)
-// void * tarefa(void *arg) {
-//    tArgs *args = (tArgs*) arg;
-//    for(int i=args->id; i<args->dim; i+=nthreads) //separando em linhas
-//       for(int j=0; j<args->dim; j++) 
-//          saida[i] += mat[i*(args->dim) + j] * vet[j];
+// função para ler os arquivos binários que contém as matrizes
+Matriz* leMatrizBinario(const char* filename) {
+    Matriz* matriz = (Matriz*) malloc(sizeof(Matriz));
 
-//    pthread_exit(NULL);
-// }
+    if (!matriz) {
+        fprintf(stderr, "Erro de alocacao da memoria da matriz\n");
+        return NULL;
+    }
 
-void * tarefa(void *arg) {
-   tArgs *args = (tArgs*) arg;
-   for(int i=args->id; i<args->linha; i+=nthreads) //separando em linhas
-      for(int j=0; j<args->coluna; j++) 
-         matRet[i*(arg->dim)+j] += mat1[i*(args->dim) + j] * mat2[i*(args->dim) + j];
+    FILE *arq = fopen(filename, "rb");
+    if (!arq) {
+        fprintf(stderr, "Erro de abertura do arquivo\n");
+        free(matriz);
+        return NULL;
+    }
 
-   pthread_exit(NULL);
+    size_t ret;
+    ret = fread(&matriz->linha, sizeof(int), 1, arq);
+    if (ret == 0) {
+        fprintf(stderr, "Erro de leitura das dimensoes da matriz arquivo\n");
+        fclose(arq);
+        free(matriz);
+        return NULL;
+    }
+
+    ret = fread(&matriz->coluna, sizeof(int), 1, arq);
+    if (ret == 0) {
+        fprintf(stderr, "Erro de leitura das dimensoes da matriz arquivo\n");
+        fclose(arq);
+        free(matriz);
+        return NULL;
+    }
+
+    matriz->tam = matriz->linha * matriz->coluna;
+
+    matriz->matriz = (float*) malloc(sizeof(float) * matriz->tam);
+    if (!matriz->matriz) {
+        fprintf(stderr, "Erro de alocao da memoria da matriz\n");
+        fclose(arq);
+        free(matriz);
+        return NULL;
+    }
+
+    ret = fread(matriz->matriz, sizeof(float), matriz->tam, arq);
+    if (ret < matriz->tam) {
+        fprintf(stderr, "Erro de leitura dos elementos da matriz\n");
+        fclose(arq);
+        free(matriz->matriz);
+        free(matriz);
+        return NULL;
+    }
+
+    fclose(arq);
+    return matriz;
 }
 
-Matriz* leMatrizBinario(){
-   Matriz* matriz;
 
-   FILE * arq; //descritor do arquivo de entrada
-   size_t ret; //retorno da funcao de leitura no arquivo de entrada
-
-   //recebe os argumentos de entrada
-   if(argc < 2) {
-      fprintf(stderr, "Digite: %s <arquivo entrada>\n", argv[0]);
-      return 1;
-   }
-   
-   //abre o arquivo para leitura binaria
-   arq = fopen(argv[1], "rb");
-   if(!arq) {
-      fprintf(stderr, "Erro de abertura do arquivo\n");
-      return 2;
-   }
-
-   //le as dimensoes da matriz
-   ret = fread(&matriz->linha, sizeof(int), 1, arq);
-   if(!ret) {
-      fprintf(stderr, "Erro de leitura das dimensoes da matriz arquivo \n");
-      return 3;
-   }
-   ret = fread(&matriz->coluna, sizeof(int), 1, arq);
-   if(!ret) {
-      fprintf(stderr, "Erro de leitura das dimensoes da matriz arquivo \n");
-      return 3;
-   }
-   matriz->tam = matriz->linha * matriz->coluna; //calcula a qtde de elementos da matriz
-
-   //aloca memoria para a matriz
-   matriz = (float*) malloc(sizeof(float) * matriz->tam);
-
-   if(!matriz) {
-      fprintf(stderr, "Erro de alocao da memoria da matriz\n");
-      return 3;
-   }
-
-   //carrega a matriz de elementos do tipo float do arquivo
-   ret = fread(matriz, sizeof(float), tam, arq);
-   if(ret < matriz->tam) {
-      fprintf(stderr, "Erro de leitura dos elementos da matriz\n");
-      return 4;
-   }
-
-   //imprime a matriz na saida padrao
-   for(int i=0; i<matriz->linha; i++) { 
-      for(int j=0; j<matriz->coluna; j++)
-        fprintf(stdout, "%.6f ", matriz[i*matriz->coluna+j]);
-      fprintf(stdout, "\n");
-   }
-
-   //finaliza o uso das variaveis
-   fclose(arq);
-   return matriz;
-   //free(matriz);
-}
-
-//fluxo principal
+// fluxo principal (único)
 int main(int argc, char* argv[]) {
-   Matriz *mat1;
-   Matriz *mat2;
-   Matriz *matRet;
-   long long int qtElementos;
-   pthread_t *tid; //identificadores das threads no sistema
-   tArgs *args; //identificadores locais das threads e dimensao
-   double inicio, fim, delta;
+    Matriz *mat1, *mat2, *matRet;
+    long long int qtElementos;
+    double inicio, fim, delta;
 
-   //alocacao de memoria para as estruturas de dados
-*-
-   
-   GET_TIME(inicio);
-   //leitura e avaliacao dos parametros de entrada
-   if(argc<4) {
-      printf("Digite: %s <arq mat 1> <arq mat 2> <arq saida> <numero de threads>\n", argv[0]);
-      return 1;
-   }
+    GET_TIME(inicio);
 
-   // lê arquivos das matrizes pegando linha1, coluna1, l2, c2 e calculando qt de elementos
-   mat1 = leMatrizBinario();
-   // confere se pd fazer a multiplicacao delas
-    qtElementos = coluna1 * linha2;
-    if (nthreads > qtElementos) nthreads = qtElementos;
+    // leitura e avaliação dos parâmetros de entrada
+    if (argc < 4) {
+        printf("Digite: %s <arquivo mattriz 1> <arquivo matriz 2> <arquivo matriz saída>\n", argv[0]);
+        return 1;
+    }
 
+    // lê arquivos das matrizes pegando linha1, coluna1, linha2, coluna2 e calculando qt de elementos
+    mat1 = leMatrizBinario(argv[1]);
+    mat2 = leMatrizBinario(argv[2]);
 
+    if (!mat1 || !mat2) {
+        return 2;
+    }
 
-   //inicializacao das estruturas de dados de entrada e saida
-   for(int i=0; i<dim; i++) {
-      for(int j=0; j<dim; j++)
-         mat[i*dim+j] = 1;    //equivalente mat[i][j]
-      vet[i] = 1; 
-      saida[i] = 0;
-   }
+   // checa se é possível fazer a multiplicação das duas matrizes
+    if (mat1->coluna != mat2->linha) {
+        fprintf(stderr, "Erro: Dimensões incompatíveis\n");
+        free(mat1->matriz);
+        free(mat1);
+        free(mat2->matriz);
+        free(mat2);
+        return 2;
+    }
 
-   GET_TIME(fim);
-   delta = fim - inicio;
-   printf("Tempo inicializacao:%lf\n", delta);
+    qtElementos = mat1->linha * mat2->coluna;
 
-   //multiplicacao da matriz pelo vetor
-   GET_TIME(inicio);
-   //alocacao das estruturas
-   tid = (pthread_t*) malloc(sizeof(pthread_t)*nthreads);
-   if(tid==NULL) {puts("ERRO--malloc"); return 2;}
-   args = (tArgs*) malloc(sizeof(tArgs)*nthreads);
-   if(args==NULL) {puts("ERRO--malloc"); return 2;}
-   //criacao das threads
-   for(int i=0; i<nthreads; i++) {
-      (args+i)->id = i;
-      (args+i)->dim = dim;
-      if(pthread_create(tid+i, NULL, tarefa, (void*) (args+i))){
-         puts("ERRO--pthread_create"); return 3;
-      }
-   } 
-   //espera pelo termino da threads
-   for(int i=0; i<nthreads; i++) {
-      pthread_join(*(tid+i), NULL);
-   }
-   GET_TIME(fim)   
-   delta = fim - inicio;
-   printf("Tempo multiplicacao (dimensao %d) (nthreads %d): %lf\n", dim, nthreads, delta);
+    matRet = (Matriz*) malloc(sizeof(Matriz)); // aloca espaço para a struct da matriz de retorno
 
-   //liberacao da memoria
-   GET_TIME(inicio);
-   free(mat);
-   free(vet);
-   free(saida);
-   free(args);
-   free(tid);
-   GET_TIME(fim)   
-   delta = fim - inicio;
-   printf("Tempo finalizacao:%lf\n", delta);
+    if (!matRet) {
+        fprintf(stderr, "Erro de alocao da memoria da matriz\n");
+        free(mat1->matriz);
+        free(mat1);
+        free(mat2->matriz);
+        free(mat2);
+        return 3;
+    }
 
-   return 0;
+    // insere as informações da matriz de retorno na struct dela
+    matRet->linha = mat1->linha;
+    matRet->coluna = mat2->coluna;
+    matRet->tam = qtElementos;
+    matRet->matriz = (float*) malloc(sizeof(float) * qtElementos);
+
+    if (!matRet->matriz) {
+        fprintf(stderr, "Erro de alocao da memoria da matriz\n");
+        free(matRet);
+        free(mat1->matriz);
+        free(mat1);
+        free(mat2->matriz);
+        free(mat2);
+        return 3;
+    }
+
+    GET_TIME(fim);
+    delta = fim - inicio;
+    printf("Tempo inicializacao (sequencial): %lf\n", delta);
+
+    // multiplicação das duas matrizes de forma sequencial
+    GET_TIME(inicio);
+
+    for (long int i = 0; i < mat1->linha; i++) {
+        for (long int j = 0; j < mat2->coluna; j++) {
+            matRet->matriz[i * mat2->coluna + j] = 0;
+            for (long int k = 0; k < mat1->coluna; k++) {
+                matRet->matriz[i * mat2->coluna + j] += mat1->matriz[i * mat1->coluna + k] * mat2->matriz[k * mat2->coluna + j];
+            }
+        }
+    }
+
+    // Liberação da memória
+    GET_TIME(fim);
+    delta = fim - inicio;
+    printf("Tempo multiplicação (sequencial): %lf\n", delta);
+
+    GET_TIME(inicio);
+    free(mat1->matriz);
+    free(mat1);
+    free(mat2->matriz);
+    free(mat2);
+    free(matRet->matriz);
+    free(matRet);
+    GET_TIME(fim);
+    delta = fim - inicio;
+    printf("Tempo finalização (sequencial): %lf\n", delta);
+
+    return 0;
 }
