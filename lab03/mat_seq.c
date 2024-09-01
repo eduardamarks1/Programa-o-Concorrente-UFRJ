@@ -78,6 +78,8 @@ int main(int argc, char* argv[]) {
     Matriz *mat1, *mat2, *matRet;
     long long int qtElementos;
     double inicio, fim, delta;
+    FILE *arqSaida;
+    size_t ret; // retorno da função de escrita no arquivo de saída
 
     GET_TIME(inicio);
 
@@ -156,6 +158,31 @@ int main(int argc, char* argv[]) {
     printf("Tempo multiplicação (sequencial): %lf\n", delta);
 
     GET_TIME(inicio);
+    // abre o arquivo de saída para escrita binária
+    arqSaida = fopen(argv[3], "wb");
+    if (!arqSaida) {
+        fprintf(stderr, "Erro de abertura do arquivo\n");
+        free(matRet->matriz);
+        free(matRet);
+        return 3;
+    }
+
+    // escreve o número de linhas e de colunas da matriz de saída
+    ret = fwrite(&matRet->linha, sizeof(int), 1, arqSaida);
+    ret = fwrite(&matRet->coluna, sizeof(int), 1, arqSaida);
+
+    // escreve os elementos da matriz
+    ret = fwrite(matRet->matriz, sizeof(float), matRet->tam, arqSaida);
+    if (ret < matRet->tam) {
+        fprintf(stderr, "Erro de escrita no arquivo\n");
+        fclose(arqSaida);
+        free(matRet->matriz);
+        free(matRet);
+        return 4;
+    }
+
+
+    fclose(arqSaida);
     free(mat1->matriz);
     free(mat1);
     free(mat2->matriz);
