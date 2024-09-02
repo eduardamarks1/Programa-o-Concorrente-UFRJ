@@ -95,3 +95,33 @@ gcc -o geraMatrizBinario geraMatrizBinario.c
    ```
 
 ## Observações
+
+# Medição de Tempo com `GET_TIME`
+
+Este projeto utiliza a função `clock_gettime` para medir o tempo de execução de trechos específicos do código. A macro `GET_TIME` simplifica a medição de tempo em segundos, usando o relógio monotônico do sistema para garantir uma medição precisa e não afetada por ajustes no relógio do sistema.
+
+## Definição da Macro `GET_TIME`
+
+A macro `GET_TIME` é definida para capturar o tempo atual e armazená-lo em uma variável do tipo `double`. Abaixo está a definição da macro:
+
+```c
+#ifndef _CLOCK_TIMER_H
+#define _CLOCK_TIMER_H
+
+#include <sys/time.h>
+#define BILLION 1000000000L
+
+/* A macro agora deve receber um double (não um ponteiro para double) */
+#define GET_TIME(now) { \
+   struct timespec time; \
+   clock_gettime(CLOCK_MONOTONIC, &time); \
+   now = time.tv_sec + time.tv_nsec/1000000000.0; \
+}
+#endif
+```
+
+- **`struct timespec time;`**: Declara uma estrutura `timespec` para armazenar o tempo em segundos e nanossegundos.
+
+- **`clock_gettime(CLOCK_MONOTONIC, &time);`**: Preenche a estrutura `time` com o tempo atual do relógio monotônico, que é um relógio que mede o tempo a partir de um ponto fixo e não retrocede.
+
+- **`now = time.tv_sec + time.tv_nsec/1000000000.0;`**: Converte o tempo armazenado em `time.tv_sec` (segundos) e `time.tv_nsec` (nanossegundos) para um float. A fração de segundo é obtida dividindo `time.tv_nsec` por 1 bilhão (número de nanossegundos em um segundo).
