@@ -180,13 +180,14 @@ int main(int argc, char* argv[]) {
 
     
      // criação das threads e distribuição das tarefas
-    int blocos = mat1->linha / nthreads;
-    int resto = mat1->linha % nthreads;
-    int inicioLinha = 0;
+
+    blocos = mat1->linha / nthreads; // número de linhas que cada thread vai processar
+    resto = mat1->linha % nthreads;
+    inicioLinha = 0;
 
     for (int i = 0; i < nthreads; i++) {
         args[i].inicio = inicioLinha;
-        args[i].fim = inicioLinha + blocos + (i < resto ? 1 : 0);
+        args[i].fim = inicioLinha + blocos + (i < resto ? 1 : 0); // a sobra fica com as primeiras "resto" threads
         inicioLinha = args[i].fim;
         if (pthread_create(&tid[i], NULL, multiplicacaoMatrizes, (void*) &args[i])) {
             fprintf(stderr, "Erro ao criar thread\n");
@@ -198,7 +199,7 @@ int main(int argc, char* argv[]) {
     for(int i=0; i<nthreads; i++) {
         pthread_join(*(tid+i), NULL);
     }
-    
+
     // Liberação da memória
     GET_TIME(fim);
     delta = fim - inicio;
@@ -240,7 +241,7 @@ int main(int argc, char* argv[]) {
     free(args);
     GET_TIME(fim);
     delta = fim - inicio;
-    printf("Tempo finalização (sequencial): %lf\n", delta);
+    printf("Tempo finalização (concorrente): %lf\n", delta);
 
     return 0;
 }
