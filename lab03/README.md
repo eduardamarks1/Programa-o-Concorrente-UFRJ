@@ -100,28 +100,104 @@ gcc -o geraMatrizBinario geraMatrizBinario.c
 
 Este projeto utiliza a função `clock_gettime` para medir o tempo de execução de trechos específicos do código. A macro `GET_TIME` simplifica a medição de tempo em segundos, usando o relógio monotônico do sistema para garantir uma medição precisa e não afetada por ajustes no relógio do sistema.
 
-## Definição da Macro `GET_TIME`
+Claro! Aqui está uma versão atualizada do README com instruções adicionais sobre permissões e compilação dos arquivos necessários:
 
-A macro `GET_TIME` é definida para capturar o tempo atual e armazená-lo em uma variável do tipo `double`. Abaixo está a definição da macro:
+---
 
-```c
-#ifndef _CLOCK_TIMER_H
-#define _CLOCK_TIMER_H
+# Análise de desempenho 
 
-#include <sys/time.h>
-#define BILLION 1000000000L
+Este projeto inclui um script adiiconal para realizar a análise de desempenho para a multiplicação de matrizes usando implementações sequenciais e concorrentes. O script gera matrizes de diferentes tamanhos, executa o código de multiplicação de matrizes sequencial e concorrente, e coleta os tempos de execução. O script realiza as seguintes tarefas:
 
-/* A macro agora deve receber um double (não um ponteiro para double) */
-#define GET_TIME(now) { \
-   struct timespec time; \
-   clock_gettime(CLOCK_MONOTONIC, &time); \
-   now = time.tv_sec + time.tv_nsec/1000000000.0; \
-}
-#endif
+1. Gera matrizes de entrada com tamanhos especificados.
+2. Executa o programa de multiplicação de matrizes em modo sequencial.
+3. Executa o programa de multiplicação de matrizes em modo concorrente com diferentes números de threads.
+4. Coleta e salva os tempos de execução em um arquivo de saída no formato txt.
+
+## Estrutura do Script
+
+O script `roda_testes.sh` realiza as seguintes etapas:
+
+### 1. Configurações Iniciais
+
+```bash
+#!/bin/bash
+
+executions=5
+output_file="results.txt"
+
+# Limpar resultados anteriores
+echo "" > $output_file
+
+# Tamanhos das matrizes
+sizes=("500" "1000" "2000")
+threads=("1" "2" "4" "8")
 ```
 
-- **`struct timespec time;`**: Declara uma estrutura `timespec` para armazenar o tempo em segundos e nanossegundos.
+- `executions=5`: Define o número de execuções para cada configuração de teste.
+- `output_file="results.txt"`: Nome do arquivo onde os resultados serão salvos.
+- `sizes=("500" "1000" "2000")`: Tamanhos das matrizes a serem testadas.
+- `threads=("1" "2" "4" "8")`: Números de threads para a versão concorrente.
 
-- **`clock_gettime(CLOCK_MONOTONIC, &time);`**: Preenche a estrutura `time` com o tempo atual do relógio monotônico, que é um relógio que mede o tempo a partir de um ponto fixo e não retrocede.
+### 2. Geração e Execução de Testes
 
-- **`now = time.tv_sec + time.tv_nsec/1000000000.0;`**: Converte o tempo armazenado em `time.tv_sec` (segundos) e `time.tv_nsec` (nanossegundos) para um float. A fração de segundo é obtida dividindo `time.tv_nsec` por 1 bilhão (número de nanossegundos em um segundo).
+```bash
+for size in "${sizes[@]}"; do
+    # Gerar matrizes de entrada
+    ./geraMatrizBinario $size $size "matrix1_${size}.bin"
+    ./geraMatrizBinario $size $size "matrix2_${size}.bin"
+
+    # Executar versão sequencial
+    echo "Matrix Size: ${size}x${size} - Sequencial" >> $output_file
+    for i in $(seq 1 $executions); do
+        ./mat_seq "matrix1_${size}.bin" "matrix2_${size}.bin" "output_${size}.bin" >> $output_file
+    done
+
+    # Executar versão concorrente com diferentes números de threads
+    for t in "${threads[@]}"; do
+        echo "Matrix Size: ${size}x${size} - ${t} Threads" >> $output_file
+        for i in $(seq 1 $executions); do
+            ./mat_conc "matrix1_${size}.bin" "matrix2_${size}.bin" "output_${size}.bin" $t >> $output_file
+        done
+    done
+done
+```
+
+- **Geração de Matrizes**: Usa `./geraMatrizBinario` para criar matrizes de entrada com os tamanhos especificados.
+- **Execução Sequencial**: Executa o programa de multiplicação sequencial `./mat_seq` e registra os tempos de execução.
+- **Execução Concorrente**: Executa o programa de multiplicação concorrente `./mat_conc` com diferentes números de threads e registra os tempos de execução.
+
+### 3. Arquivo de Saída
+
+Os resultados são salvos no arquivo `results.txt`, que inclui:
+- O tamanho da matriz.
+- O tipo de execução (sequencial ou concorrente).
+- O número de threads (para a versão concorrente).
+- Os tempos de execução para cada teste.
+
+## Requisitos
+
+1. **Permissões de Execução**: Antes de executar o script `roda_testes.sh`, é necessário garantir que ele tenha permissões de execução. Você pode definir as permissões executando o seguinte comando:
+
+   ```bash
+   chmod +x roda_testes.sh
+   ```
+
+2. **Compilação dos Programas**: Os seguintes programas devem estar compilados e disponíveis no diretório onde o script será executado:
+
+   - `geraMatrizBinario`
+   - `mat_seq`
+   - `mat_conc`
+
+3. **Defina Permissões**: Torne o script `roda_testes.sh` executável:
+
+   ```bash
+   chmod +x roda_testes.sh
+   ```
+
+3. **Execute o Script**: Rode o script `roda_testes.sh` para iniciar o benchmark e gerar o arquivo de resultados.
+
+   ```bash
+   ./roda_testes.sh
+   ```
+
+4. **Verifique os Resultados**: Abra o arquivo `results.txt` para visualizar os tempos de execução e comparar o desempenho das diferentes implementações e configurações.
