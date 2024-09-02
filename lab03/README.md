@@ -100,8 +100,6 @@ gcc -o geraMatrizBinario geraMatrizBinario.c
 
 Este projeto utiliza a função `clock_gettime` para medir o tempo de execução de trechos específicos do código. A macro `GET_TIME` simplifica a medição de tempo em segundos, usando o relógio monotônico do sistema para garantir uma medição precisa e não afetada por ajustes no relógio do sistema.
 
-Claro! Aqui está uma versão atualizada do README com instruções adicionais sobre permissões e compilação dos arquivos necessários:
-
 ---
 
 # Análise de desempenho 
