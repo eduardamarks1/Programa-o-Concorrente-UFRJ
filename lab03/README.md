@@ -12,6 +12,60 @@ Este projeto tem como objetivo implementar uma solução concorrente para o prob
 - `mat_conc.c`: Implementa a multiplicação de duas matrizes utilizando múltiplas threads para realizar o cálculo de forma concorrente.
 - `geraMatrizBinario.c`: Gera matrizes aleatórias e salva em arquivos binários, que são utilizados como entrada pelos programas de multiplicação.
 
+## Detalhes de Implementação
+Aqui está um exemplo de um arquivo README para o código de multiplicação de matrizes usando threads:
+
+### 1. Divisão do Trabalho entre as Threads
+
+A divisão do trabalho é feita com base nas linhas da primeira matriz (`mat1`):
+
+- O número total de linhas de `mat1` é dividido pelo número de threads (`nthreads`).
+- Cada thread é atribuída a um bloco de linhas para processar. O número básico de linhas por thread é calculado como:
+  ```c
+  blocos = mat1->linha / nthreads;
+  ```
+- Se houver linhas restantes após a divisão, essas linhas são distribuídas entre as primeiras threads. Isso é controlado pela variável `resto`:
+  ```c
+  resto = mat1->linha % nthreads;
+  ```
+
+### 2. Distribuição e Execução das Threads
+
+- Cada thread recebe um intervalo de linhas para processar, definido por `args[i].inicio` e `args[i].fim`.
+- As primeiras `resto` threads recebem uma linha adicional para balancear a carga:
+  ```c
+  args[i].fim = inicioLinha + blocos + (i < resto ? 1 : 0);
+  ```
+- As threads são criadas usando a função `pthread_create` e executam a função `multiplicacaoMatrizes`, que realiza a multiplicação de suas linhas atribuídas com todas as colunas da segunda matriz (`mat2`).
+
+## Como Executar
+
+1. Compile o programa utilizando um compilador compatível com POSIX Threads (exemplo: GCC):
+   ```bash
+   gcc -o mult_matrix mult_matrix.c -lpthread
+   ```
+
+2. Execute o programa passando os nomes dos arquivos das duas matrizes de entrada, o arquivo de saída e o número de threads:
+   ```bash
+   ./mult_matrix matriz1.bin matriz2.bin matriz_saida.bin 4
+   ```
+
+   Neste exemplo, `4` é o número de threads que serão utilizadas para a multiplicação.
+
+## Considerações
+
+- As dimensões das matrizes de entrada devem ser compatíveis para multiplicação (o número de colunas da primeira matriz deve ser igual ao número de linhas da segunda matriz).
+- O programa lida com a alocação dinâmica de memória e a leitura/escrita de arquivos binários para eficiência.
+- O uso de múltiplas threads melhora o desempenho em sistemas de múltiplos núcleos, dividindo a carga de trabalho e aproveitando a concorrência.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+Esse README fornece uma visão geral do projeto, como ele funciona e como pode ser executado. Se tiver mais alguma dúvida ou precisar de ajustes adicionais, sinta-se à vontade para perguntar!
+
 ## Como Compilar e Executar
 
 ### Compilação
