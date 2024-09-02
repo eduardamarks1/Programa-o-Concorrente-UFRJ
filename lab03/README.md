@@ -38,34 +38,6 @@ A divisão do trabalho é feita com base nas linhas da primeira matriz (`mat1`):
   ```
 - As threads são criadas usando a função `pthread_create` e executam a função `multiplicacaoMatrizes`, que realiza a multiplicação de suas linhas atribuídas com todas as colunas da segunda matriz (`mat2`).
 
-## Como Executar
-
-1. Compile o programa utilizando um compilador compatível com POSIX Threads (exemplo: GCC):
-   ```bash
-   gcc -o mult_matrix mult_matrix.c -lpthread
-   ```
-
-2. Execute o programa passando os nomes dos arquivos das duas matrizes de entrada, o arquivo de saída e o número de threads:
-   ```bash
-   ./mult_matrix matriz1.bin matriz2.bin matriz_saida.bin 4
-   ```
-
-   Neste exemplo, `4` é o número de threads que serão utilizadas para a multiplicação.
-
-## Considerações
-
-- As dimensões das matrizes de entrada devem ser compatíveis para multiplicação (o número de colunas da primeira matriz deve ser igual ao número de linhas da segunda matriz).
-- O programa lida com a alocação dinâmica de memória e a leitura/escrita de arquivos binários para eficiência.
-- O uso de múltiplas threads melhora o desempenho em sistemas de múltiplos núcleos, dividindo a carga de trabalho e aproveitando a concorrência.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-Esse README fornece uma visão geral do projeto, como ele funciona e como pode ser executado. Se tiver mais alguma dúvida ou precisar de ajustes adicionais, sinta-se à vontade para perguntar!
-
 ## Como Compilar e Executar
 
 ### Compilação
