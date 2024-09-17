@@ -16,7 +16,6 @@ void *ExecutaTarefa (void *arg) {
 
     for (int i=0; i<100000; i++) {
         pthread_mutex_lock(&mutex1);  
-        soma++;
 
         if(soma % 10 == 0 && qt_mul < 20) { // ao encontrar um múltiplo de 10
             impresso = 0;
@@ -25,7 +24,7 @@ void *ExecutaTarefa (void *arg) {
                 pthread_cond_wait(&cond, &mutex1);    
             }
         }
-
+        soma++;
         pthread_mutex_unlock(&mutex1);
     }
 
@@ -45,8 +44,8 @@ void *extra (void *args) {
         printf("soma = %ld \n", soma);
         qt_mul++;
         impresso = 1;
-        pthread_cond_broadcast(&cond); // avisa a thread principal que imprimiu
     }
+     pthread_cond_broadcast(&cond); // avisa a thread principal que imprimiu
     pthread_mutex_unlock(&mutex1);
 
     printf("Extra : terminou!\n");
