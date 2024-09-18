@@ -4,55 +4,57 @@
 
 long int qt_mul = 0; // contador para a quantidade de múltiplos
 long int soma = 0;
-long int impresso = 0;
-pthread_mutex_t mutex1;
+int impresso = 0;
+pthread_mutex_t mutex;
 pthread_cond_t cond;
 pthread_cond_t condExtra;
 
-//funcao executada pelas threads
+// funcao executada pelas threads
 void *ExecutaTarefa (void *arg) {
     long int id = (long int) arg;
     printf("Thread : %ld esta executando...\n", id);
 
-    for (int i=0; i<100000; i++) {
-        pthread_mutex_lock(&mutex1);  
-
-        if(soma % 10 == 0 && qt_mul < 20) { // ao encontrar um múltiplo de 10
-            impresso = 0;
-            pthread_cond_signal(&condExtra);  // avisa p/ a thread extra que pode imprimir
-            while(impresso == 0) { // espera pela impressão
-                pthread_cond_wait(&cond, &mutex1);    
-            }
+    for (int i = 0; i < 100000; i++) {
+        pthread_mutex_lock(&mutex);  
+        
+        if(soma % 10 == 0 && qt_mul < 20) { 
+          pthread_cond_signal(&condExtra);  
+          while(impresso == 0){
+              pthread_cond_wait(&cond, &mutex);   
+          }    
+          impresso = 0;  // resetar a variável após imprimir
         }
         soma++;
-        pthread_mutex_unlock(&mutex1);
+        pthread_mutex_unlock(&mutex);
     }
 
     printf("Thread : %ld terminou!\n", id);
     pthread_exit(NULL);
 }
 
-//funcao executada pela thread de log
+// funcao executada pela thread de log
 void *extra (void *args) {
     printf("Extra : esta executando...\n");
 
-    pthread_mutex_lock(&mutex1);
-    while(qt_mul < 20) {
-        while(soma % 10 != 0) {
-            pthread_cond_wait(&condExtra, &mutex1); // espera por múltiplo de 10
+    for(int i = 0; i < 10000; i++){
+        pthread_mutex_lock(&mutex);
+        if(qt_mul < 20) {
+            while(soma % 10 != 0) { // espera por múltiplo de 10
+                pthread_cond_wait(&condExtra, &mutex); 
+            }
+            printf("soma = %ld \n", soma);
+            impresso = 1;
+            qt_mul++;
+            pthread_cond_signal(&cond); 
         }
-        printf("soma = %ld \n", soma);
-        qt_mul++;
-        impresso = 1;
+        pthread_mutex_unlock(&mutex);
     }
-     pthread_cond_broadcast(&cond); // avisa a thread principal que imprimiu
-    pthread_mutex_unlock(&mutex1);
 
     printf("Extra : terminou!\n");
     pthread_exit(NULL);
 }
 
-//fluxo principal
+// fluxo principal
 int main(int argc, char *argv[]) {
     pthread_t *tid;
     int nthreads;
@@ -69,7 +71,7 @@ int main(int argc, char *argv[]) {
         return 2;
     }
 
-    pthread_mutex_init(&mutex1, NULL);
+    pthread_mutex_init(&mutex, NULL);
     pthread_cond_init(&condExtra, NULL);
     pthread_cond_init(&cond, NULL);
 
@@ -95,7 +97,7 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    pthread_mutex_destroy(&mutex1);
+    pthread_mutex_destroy(&mutex);
     pthread_cond_destroy(&cond);
     pthread_cond_destroy(&condExtra);
 
