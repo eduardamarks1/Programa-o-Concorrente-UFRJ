@@ -26,6 +26,8 @@ A sincronização entre as threads é realizada com um `pthread_mutex_t` para co
 
    ```bash
    gcc -o soma-lock-sync soma-lock-sinc.c -Wall -pthread
+   ```
 
-      ```bash
+   ```bash
    ./soma-lock-sync <quantidade de threads>
+   ```
