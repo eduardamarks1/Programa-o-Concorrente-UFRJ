@@ -1,0 +1,3010 @@
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor esperando, porque tem escritor ativo ou esperando
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor esperando, porque tem leitores ou escritores ativos
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor esperando, porque tem escritor ativo ou esperando
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor esperando, porque tem leitores ou escritores ativos
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor esperando, porque tem escritor ativo ou esperando
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Leitor esperando, porque tem escritor ativo ou esperando
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor esperando, porque tem leitores ou escritores ativos
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor esperando, porque tem escritor ativo ou esperando
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor esperando, porque tem leitores ou escritores ativos
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor esperando, porque tem escritor ativo ou esperando
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
