@@ -8,7 +8,7 @@ com prioridade de escrita */
 #include "timer.h"
 #include "priority_rwlock.h"
 
-#define QTDE_OPS 10000000 //quantidade de operacoes sobre a lista (insercao, remocao, consulta)
+#define QTDE_OPS 1000 //quantidade de operacoes sobre a lista (insercao, remocao, consulta)
 #define QTDE_INI 100 //quantidade de insercoes iniciais na lista
 #define MAX_VALUE 100 //valor maximo a ser inserido
 
