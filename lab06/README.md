@@ -90,3 +90,30 @@ O trecho a seguir do `LOG.txt` ilustra a corretude da implementação. Veja:
 [LOG] Leitor terminou de ler
 
 ```
+
+Repare que além das propriedades clássicas de programas do tipo produtor/consumitor serem respeitadas, a prioridade do escritor é evidenciada em:
+
+```C
+[LOG] Escritor tenta escrever
+[LOG] Escritor esperando, porque tem leitores ou escritores ativos
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor esperando, porque tem escritor ativo ou esperando
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+```
+O escritor tenta escrever, mas é interrompido e entre em espera. Enquanto isso, um leitor tenta ler e entra em espera, pois cede prioridade para o escritor que já estava esperando.
+
+## Compilação
+
+Para compilar o código, digite na linha de comando:
+
+```C
+ gcc -o main_rwlock .\list_int.c .\priority_rwlock.c .\log.c  .\main_rwlock.c -lpthread
+```
+
+Para rodar, digite:
+
+```C
+ ./main_rwlock <número de threads>
+```
