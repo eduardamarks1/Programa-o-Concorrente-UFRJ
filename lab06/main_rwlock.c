@@ -1,10 +1,12 @@
-//Programa concorrente que cria e faz operacoes sobre uma lista de inteiros
+/* Programa concorrente que cria e faz operacoes sobre uma lista de inteiros com uma implementação própria da função rwlock 
+com prioridade de escrita */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include "list_int.h"
 #include <pthread.h>
 #include "timer.h"
+#include "priority_rwlock.h"
 
 #define QTDE_OPS 10000000 //quantidade de operacoes sobre a lista (insercao, remocao, consulta)
 #define QTDE_INI 100 //quantidade de insercoes iniciais na lista
@@ -12,13 +14,12 @@
 
 //lista compartilhada iniciada 
 struct list_node_s* head_p = NULL; 
-//qtde de threads no programa
+
 int nthreads;
 
 //rwlock de exclusao mutua
-pthread_rwlock_t rwlock;
+pthread_mutex_t lock;
 
-//tarefa das threads
 void* tarefa(void* arg) {
    long int id = (long int) arg;
    int op;
@@ -26,23 +27,24 @@ void* tarefa(void* arg) {
    in=out=read = 0; 
 
    //realiza operacoes de consulta (98%), insercao (1%) e remocao (1%)
+
    for(long int i=id; i<QTDE_OPS; i+=nthreads) {
       op = rand() % 100;
       if(op<98) {
-	 pthread_rwlock_rdlock(&rwlock); /* lock de LEITURA */    
-         Member(i%MAX_VALUE, head_p);   /* Ignore return value */
-	 pthread_rwlock_unlock(&rwlock);     
-	 read++;
+         rwlock_priority_read_lock(&lock); /* lock de LEITURA */    
+            Member(i%MAX_VALUE, head_p);   /* Ignore return value */
+         rwlock_priority_read_unlock(&lock);     
+	   read++;
       } else if(98<=op && op<99) {
-	 pthread_rwlock_wrlock(&rwlock); /* lock de ESCRITA */    
-         Insert(i%MAX_VALUE, &head_p);  /* Ignore return value */
-	 pthread_rwlock_unlock(&rwlock);     
-	 in++;
+         rwlock_priority_write_lock(&lock); /* lock de ESCRITA COM PRIORIDADE */    
+            Insert(i%MAX_VALUE, &head_p);  
+         rwlock_priority_write_unlock(&lock);     
+      in++;
       } else if(op>=99) {
-	 pthread_rwlock_wrlock(&rwlock); /* lock de ESCRITA */     
-         Delete(i%MAX_VALUE, &head_p);  /* Ignore return value */
-	 pthread_rwlock_unlock(&rwlock);     
-	 out++;
+         rwlock_priority_write_lock(&lock); /* lock de ESCRITA COM PRIORIDADE */     
+            Delete(i%MAX_VALUE, &head_p); 
+          rwlock_priority_write_unlock(&lock);      
+	   out++;
       }
    }
    //registra a qtde de operacoes realizadas por tipo
@@ -51,6 +53,7 @@ void* tarefa(void* arg) {
 }
 
 /*-----------------------------------------------------------------*/
+
 int main(int argc, char* argv[]) {
    pthread_t *tid;
    double ini, fim, delta;
@@ -72,10 +75,10 @@ int main(int argc, char* argv[]) {
       printf("--ERRO: malloc()\n"); return 2;
    }
 
-   //tomada de tempo inicial
    GET_TIME(ini);
-   //inicializa a variavel mutex
-   pthread_rwlock_init(&rwlock, NULL);
+
+   pthread_mutex_init(&lock, NULL);
+   rwlock_priority_init();
    
    //cria as threads
    for(long int i=0; i<nthreads; i++) {
@@ -91,18 +94,15 @@ int main(int argc, char* argv[]) {
       }
    }
 
-   //tomada de tempo final
    GET_TIME(fim);
    delta = fim-ini;
    printf("Tempo: %lf\n", delta);
 
-   //libera o mutex
-   pthread_rwlock_destroy(&rwlock);
-   //libera o espaco de memoria do vetor de threads
+   pthread_mutex_destroy(&lock);
+   rwlock_priority_destroy();
    free(tid);
-   //libera o espaco de memoria da lista
    Free_list(&head_p);
 
    return 0;
-}  /* main */
+} 
 
