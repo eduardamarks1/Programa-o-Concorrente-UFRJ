@@ -30,6 +30,8 @@ A `priority_rwlock` tem as seguintes funções:
 
 ## Exemplo 
 
+O `main_rwlock.c` é um exemplo de implementação da biblioteca que realiza operações de consulta (98%), inserção (1%) e remoção (1%), conforme os parâmetros padrão do código fornecido pela professora da disciplina. No entanto, para melhorar a visualização das operações no log, os parâmetros foram alterados para 50% de consulta, 15% de inserção e 35% de remoção (apenas para o log salvo em `LOG.txt`). Além disso, a quantidade total de operações foi reduzida de 100000 para 1000 Isso foi feito para evitar que o log se tornasse absurdamente grande. Nada impede, porém, que o programa seja executado com os parâmetros originais, apenas resultando em um log muito mais extenso.
+
 ```c
 #include <pthread.h>
 #include "priority_rwlock.h"
@@ -56,3 +58,35 @@ int main() {
 ## LOG
 
 Foi implementada uma bibliteca `log` que salva as mensagens em um arquivo chamado `LOG.txt`. Isso foi bastante útil para analisar o comportamento do programa e da implementação das prioridades.
+
+## RESULTADOS
+
+O trecho a seguir do `LOG.txt` ilustra a corretude da implementação. Veja:
+
+```C
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Escritor tenta escrever
+[LOG] Escritor comecou a escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor esperando, porque tem escritor ativo ou esperando
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+[LOG] Escritor tenta escrever
+[LOG] Escritor esperando, porque tem leitores ou escritores ativos
+[LOG] Leitor terminou de ler
+[LOG] Leitor tenta ler
+[LOG] Leitor esperando, porque tem escritor ativo ou esperando
+[LOG] Escritor comecou a escrever
+[LOG] Escritor terminou de escrever
+[LOG] Leitor tenta ler
+[LOG] Leitor comecou a ler
+[LOG] Leitor terminou de ler
+
+```
