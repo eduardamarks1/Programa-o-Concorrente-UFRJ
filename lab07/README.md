@@ -25,9 +25,5 @@ Este programa em C lê um arquivo de entrada (`entrada.txt`), processa seus cara
    ```bash
    ./main 10
    ```
-- Libera a memória alocada para os buffers.
-- Destroi os semáforos criados. 
 
----
-
-Este programa demonstra o uso eficiente de **threads e semáforos** para processamento concorrente de arquivos, útil para aprendizado sobre sincronização e programação paralela em C.
+Este programa demonstra o uso eficiente de **threads e semáforos** para processamento concorrente de arquivos.
