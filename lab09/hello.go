@@ -1,4 +1,4 @@
-//Hello World com goroutines em Go
+// Hello World com goroutines em Go
 package main
 
 import (
@@ -12,7 +12,7 @@ func olaMundo(i int) {
 
 func main() {
 	for i := 0; i < 10; i++ {
-	   go olaMundo(i) //dispara a goroutine
+		go olaMundo(i) //dispara a goroutine
 	}
 	time.Sleep(time.Second) //bloqueio na main
 	//quando a main termina, o programa inteiro termina
