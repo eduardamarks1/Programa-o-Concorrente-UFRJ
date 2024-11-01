@@ -37,6 +37,7 @@ Para executar o código, escreva no terminal:
 ```
 Main envia para Goroutine: Olá, Goroutine, bom dia! (impresso pela Goroutine)
 Goroutine envia para Main: Oi Main, bom dia, tudo bem? (impresso pela Main)
+Main envia para Goroutine: Tudo bem! Vou terminar tá? (impresso pela Goroutine)
 Goroutine envia para Main: Certo, entendido. (impresso pela Main)
 Goroutine imprime: finalizando
 Main imprime: finalizando
