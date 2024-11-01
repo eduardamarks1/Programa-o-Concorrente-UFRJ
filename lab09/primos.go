@@ -85,9 +85,9 @@ func main() {
 
 	wg.Wait() // espera todas as goroutines terminarem
 
-	ehPrimoSequencial(sequencia)
+	fmt.Println(sequencia)
 
-	fmt.Print(sequencia)
+	ehPrimoSequencial(sequencia)
 
 	if countPrimosSequencial != countPrimosConcorrente {
 		println("As soluções sequencial e concorrente erraram a primalidade de pelo menos um número :(")
