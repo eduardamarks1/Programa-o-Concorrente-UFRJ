@@ -28,7 +28,7 @@ Este código demonstra o uso de goroutines e canais para comunicação e sincron
 Para executar o código, escreva no terminal:
 
    ```bash
-   go run main.go
+   go run channels.go
    ```
 
 ### Saída 
@@ -69,7 +69,7 @@ Este código demonstra a verificação de primalidade de números utilizando dua
 Para executar o código, escreva no terminal:
 
    ```bash
-   go run main.go
+   go run primos.go
    ```
 
 ### Saída
