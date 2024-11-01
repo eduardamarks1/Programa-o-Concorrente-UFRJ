@@ -36,6 +36,7 @@ func ehPrimo(n int) int {
 
 // checa quais números no array são primos de forma sequencial
 func ehPrimoSequencial(array []int) {
+	fmt.Println("\n--- Abordagem Sequencial ---")
 	for _, num := range array {
 		if ehPrimo(num) == 1 {
 			fmt.Printf("%d é primo\n", num)
@@ -44,6 +45,7 @@ func ehPrimoSequencial(array []int) {
 			fmt.Printf("%d não é primo\n", num)
 		}
 	}
+	fmt.Printf("Quantidade de primos encontrados na abordagem sequencial: %d\n", countPrimosSequencial)
 }
 
 // função utilizada para verificar a primalidade dos números recebidos pelo canal (abordagem concorrente)
@@ -69,6 +71,7 @@ func main() {
 	var wg sync.WaitGroup
 
 	// inicia M goroutines para processar os números
+	fmt.Println("--- Abordagem Concorrente ---")
 	for i := 0; i < M; i++ {
 		wg.Add(1)
 		go processarNumeros(numeros, &wg)
@@ -85,17 +88,16 @@ func main() {
 
 	wg.Wait() // espera todas as goroutines terminarem
 
-	fmt.Println(sequencia)
-
-	ehPrimoSequencial(sequencia)
-
-	if countPrimosSequencial != countPrimosConcorrente {
-		println("As soluções sequencial e concorrente erraram a primalidade de pelo menos um número :(")
-	} else {
-		println("As soluções sequencial e concorrente encontraram a mesma quantidade de primos :)")
-	}
-
-	fmt.Printf("Quantidade de primos encontrados na abordagem sequencial: %d\n", countPrimosSequencial)
 	fmt.Printf("Quantidade de primos encontrados na abordagem concorrente: %d\n", countPrimosConcorrente)
 
+	// executa a abordagem sequencial
+	ehPrimoSequencial(sequencia)
+
+	// comparação entre as duas abordagens
+	fmt.Println("\n--- Comparação ---")
+	if countPrimosSequencial != countPrimosConcorrente {
+		fmt.Println("As soluções sequencial e concorrente erraram a primalidade de pelo menos um número :(")
+	} else {
+		fmt.Println("As soluções sequencial e concorrente encontraram a mesma quantidade de primos :)")
+	}
 }
