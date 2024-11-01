@@ -76,13 +76,33 @@ Para executar o código, escreva no terminal:
 
 
 ```
-50 não é primo
-73 é primo
-23 é primo
-40 não é primo
-...
+--- Abordagem Concorrente ---
+78 não é primo
+42 não é primo
+30 não é primo
+13 é primo
+4 não é primo
+49 não é primo
+16 não é primo
+51 não é primo
+91 não é primo
+97 é primo
+Quantidade de primos encontrados na abordagem concorrente: 2
+
+--- Abordagem Sequencial ---
+91 não é primo
+78 não é primo
+97 é primo
+42 não é primo
+30 não é primo
+13 é primo
+4 não é primo
+49 não é primo
+16 não é primo
+51 não é primo
+Quantidade de primos encontrados na abordagem sequencial: 2
+
+--- Comparação ---
 As soluções sequencial e concorrente encontraram a mesma quantidade de primos :)
-Quantidade de primos encontrados na abordagem sequencial: 5
-Quantidade de primos encontrados na abordagem concorrente: 5
 ```
 
